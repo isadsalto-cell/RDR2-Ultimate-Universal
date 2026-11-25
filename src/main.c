@@ -49,3 +49,19 @@ void menu_init(void);
 void menu_display(void);
 
 #endif
+#include <stdio.h>
+#include "menu.h"
+
+void menu_init(void)
+{
+    printf("Menu initialized\n");
+}
+
+void menu_display(void)
+{
+    printf("[1] Player\n");
+    printf("[2] Weapons\n");
+    printf("[3] Animations\n");
+    printf("[4] Settings\n");
+    printf("[5] About\n");
+}

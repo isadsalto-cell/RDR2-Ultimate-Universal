@@ -71,3 +71,10 @@ void menu_display(void)
 void settings_init(void);
 
 #endif
+#include <stdio.h>
+#include "settings.h"
+
+void settings_init(void)
+{
+    printf("Settings initialized\n");
+}

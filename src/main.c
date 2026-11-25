@@ -65,3 +65,9 @@ void menu_display(void)
     printf("[4] Settings\n");
     printf("[5] About\n");
 }
+#ifndef SETTINGS_H
+#define SETTINGS_H
+
+void settings_init(void);
+
+#endif
